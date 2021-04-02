@@ -16,7 +16,7 @@
 		<key>description</key>
 		<string>Patch Updater is an application that seamlessly manages all system patches installed using macOS Big Sur Update.</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/patchUpdater.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/patchUpdater.zip</string>
 		<key>minSystemVersion</key>
 		<string>all</string>
 		<key>supportedMachines</key>
@@ -38,9 +38,9 @@
 		<key>description</key>
 		<string>This patch installs custom kexts, &quot;LegacyUSBInjector.kext&quot; and &quot;LegacyUSBVideoSupport.kext&quot;, onto your system, allowing legacy USB controllers to function properly under Catalina.
 
-- This update fixes an issue where some internal iSight and USB webcams may not work with Catalina</string>
+- This update fixes an issue where some internal iSight and USB webcams may not work with Big Sur</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/legacyusb.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/legacyusb.zip</string>
 		<key>minSystemVersion</key>
 		<string>all</string>
 		<key>supportedMachines</key>
@@ -64,7 +64,7 @@
 
 - This update restores full trackpad functionality and trackpad preferences support, courtesy of @parrotgeek1</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/TrackpadPatch.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/TrackpadPatch.zip</string>
 		<key>supportedMachines</key>
 		<array>
 			<string>MacBook5,2</string>
@@ -93,7 +93,7 @@
 
 Credit for the discovery of the methods used in this patch goes to parrotgeek1.</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/sipPatch.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/sipPatch.zip</string>
 		<key>minSystemVersion</key>
 		<string>all</string>
 		<key>supportedMachines</key>
@@ -115,7 +115,7 @@ Credit for the discovery of the methods used in this patch goes to parrotgeek1.<
 		<key>description</key>
 		<string>This patch adds support for certain legacy WiFi adapters to macOS Catalina.</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/legacyWifi.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/legacyWifi.zip</string>
 		<key>minSystemVersion</key>
 		<string>all</string>
 		<key>supportedMachines</key>
@@ -168,7 +168,7 @@ Credit for the discovery of the methods used in this patch goes to parrotgeek1.<
 		<key>description</key>
 		<string>This patch fixes a kernel panic issue on machines utilizing legacy platforms.</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/legacyPlatform.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/legacyPlatform.zip</string>
 		<key>minSystemVersion</key>
 		<string>all</string>
 		<key>supportedMachines</key>
@@ -205,7 +205,7 @@ Credit for the discovery of the methods used in this patch goes to parrotgeek1.<
 		<key>description</key>
 		<string>This patch fixes an issue where unsupported systems would not detect the internal audio device under Catalina.</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/legacyAudio.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/legacyAudio.zip</string>
 		<key>minSystemVersion</key>
 		<string>all</string>
 		<key>supportedMachines</key>
@@ -232,7 +232,7 @@ PLEASE NOTE:
 
 This patch includes a built-in check to verify that your machine actually contains a WiFi card that needs this patch. If your machine does NOT contain a WiFi card that requires this patch, then it will NOT be installed, despite indicating so.</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/bcm94321.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/bcm94321.zip</string>
 		<key>minSystemVersion</key>
 		<string>all</string>
 		<key>supportedMachines</key>
@@ -259,7 +259,7 @@ This patch includes a built-in check to verify that your machine actually contai
 		<key>description</key>
 		<string>This patch adds support for legacy Ethernet controllers to Catalina.</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/legacyEnet.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/legacyEnet.zip</string>
 		<key>minSystemVersion</key>
 		<string>all</string>
 		<key>supportedMachines</key>
@@ -300,7 +300,7 @@ This patch includes a built-in check to verify that your machine actually contai
 		<key>description</key>
 		<string>This patch fixes an issue where some machines may hang at boot, due to IOHIDFamily.kext.</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/hidStall.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/hidStall.zip</string>
 		<key>minSystemVersion</key>
 		<string>all</string>
 		<key>supportedMachines</key>
@@ -320,7 +320,7 @@ This patch includes a built-in check to verify that your machine actually contai
 		<key>description</key>
 		<string>This patch adds support for legacy Intel IDE/PATA controllers to Catalina.</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/legacyIDE.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/legacyIDE.zip</string>
 		<key>minSystemVersion</key>
 		<string>all</string>
 		<key>supportedMachines</key>
@@ -348,7 +348,7 @@ This patch includes a built-in check to verify that your machine actually contai
 
 - This update adds support for Catalina version 10.15.4</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/NightShiftPatch.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/NightShiftPatch.zip</string>
 		<key>minSystemVersion</key>
 		<string>10.15.4</string>
 		<key>supportedMachines</key>
@@ -375,7 +375,7 @@ This patch includes a built-in check to verify that your machine actually contai
 		<key>description</key>
 		<string>This patch fixes an issue where the system&apos;s volume won&apos;t change on iMac 7,1 and 8,1 systems.</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/volControlPatch.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/volControlPatch.zip</string>
 		<key>supportedMachines</key>
 		<array>
 			<string>iMac8,1</string>
@@ -406,7 +406,7 @@ This patch includes a built-in check to verify that your machine actually contai
 - All credit for this patch goes to Syncretic, at https://forums.macrumors.com/members/syncretic.1173816
 - This update includes the latest release of Syncretic&apos;s MouSSE kext</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/amdSSE4.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/amdSSE4.zip</string>
 		<key>supportedMachines</key>
 		<array>
 			<string>MacPro3,1</string>
@@ -433,7 +433,7 @@ This patch includes a built-in check to verify that your machine actually contai
 
 -This update fixes an issue where the backlight brightness setting may not stay set properly</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/BacklightPatch.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/BacklightPatch.zip</string>
 		<key>minSystemVersion</key>
 		<string>10.15.0</string>
 		<key>supportedMachines</key>
@@ -456,7 +456,7 @@ This patch includes a built-in check to verify that your machine actually contai
 		<key>userVisibleName</key>
 		<string>Legacy Video Card Patch</string>
 		<key>description</key>
-		<string>This patch adds support for most legacy non-Metal video cards to macOS Catalina.
+		<string>This patch adds support for most legacy non-Metal video cards to macOS Big Sur.
 
 - This update fixes the long-present grey Menu Bar and Finder Sidebar light mode anomaly issue, thanks to an amazing discovery by @ASentientBot and @testheit</string>
 		<key>patchURL</key>
@@ -482,7 +482,7 @@ This patch includes a built-in check to verify that your machine actually contai
 
 - This update fixes an issue where some third-party applications may crash on launch occasionally.</string>
 		<key>patchURL</key>
-		<string>http://dosdude1.com/catalina/patchupdates/LibraryValidation.zip</string>
+		<string>https://github.com/wmthornton/Big-Sur-Update-Patches/blob/main/LibraryValidation.zip</string>
 		<key>minSystemVersion</key>
 		<string>10.15.4</string>
 		<key>supportedMachines</key>
